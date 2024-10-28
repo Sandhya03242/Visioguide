@@ -1,41 +1,55 @@
-#VisioGuide: Smart Cap for Object Detection and Navigation
+# VisioGuide: Smart Cap for Object Detection and Navigation
 
-   VisioGuide is a smart cap designed to assist visually impaired individuals by providing real-time object detection and
-   audio feedback about their surroundings. The system utilizes a Raspberry Pi-3, a USB webcam, and TensorFlow to detect
-   objects and convey information through speech synthesis.
+VisioGuide is a smart cap designed to assist visually impaired individuals by providing real-time object detection and audio feedback about their surroundings. The system utilizes a Raspberry Pi 3, a USB webcam, and TensorFlow to detect objects and convey information through speech synthesis.
 
-##Table of Contents
+## Table of Contents
 
-   - Project Overview
-   - Features
-   - Hardware Requirements
-   - Installation
-     
-##Project Overview
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Hardware Requirements](#hardware-requirements)
+- [Software Requirements](#software-requirements)
+- [Installation](#installation)
 
-   VisioGuide aims to empower blind and visually impaired individuals by enabling them to recognize everyday objects and 
-   navigate their environment independently. The system captures images in real-time using a webcam, processes them with a 
-   Convolutional Neural Network (CNN), and announces the detected objects via text-to-speech.
+## Project Overview
 
-##Features
+VisioGuide aims to empower blind and visually impaired individuals by enabling them to recognize everyday objects (e.g., furniture, vehicles) and navigate their environment independently. The system captures images in real-time using a webcam, processes them with a Convolutional Neural Network (CNN), and announces the detected objects via text-to-speech.
 
-   - Real-time Object Detection: Utilizes a pre-trained CNN model to detect objects in the user’s environment.
-   - Audio Feedback: Converts detected object information into speech using the Pyttsx3 Text to Speech synthesizer.
-   - Portable Design: Compact hardware setup allows for easy carrying and use in various environments.
-     
-##Hardware Requirements
+## Features
 
-   - Raspberry Pi 3
-   - USB Webcam
-   - Headphones
-   - Power Bank
-     
-##Software Requirements
+- **Real-time Object Detection**: Detects objects in the user’s environment using a pre-trained CNN model.
+- **Audio Feedback**: Provides speech output for detected objects via the Pyttsx3 Text-to-Speech synthesizer.
+- **Portable Design**: Lightweight and compact hardware for easy transport and use in various settings.
 
-  - Python 
-  - OpenCV
-  - TensorFlow (lite version)
-  - Numpy
-  - Pyttsx3
+## Hardware Requirements
+
+- Raspberry Pi 3
+- USB Webcam
+- Headphones
+- Power Bank (with sufficient capacity for your usage)
+
+## Software Requirements
+
+- Python (version X.X)
+- OpenCV
+- TensorFlow (lite version)
+- Numpy
+- Pyttsx3 (for Text-to-Speech)
+
+## Installation
+
+### Clone the Repository
+```bash
+git clone https://github.com/Sandhya03242/visio-guide.git
+cd visio-guide
+```
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### Run the Application
+```bash
+python main.py
+```
+
 
 
