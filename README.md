@@ -30,9 +30,8 @@
    - Headphones
    - Power Bank
      
-🛠️ Installation
+🛠️ Software Requirements
 
-  Requirements:
   - Python 
   - OpenCV
   - TensorFlow (lite version)
